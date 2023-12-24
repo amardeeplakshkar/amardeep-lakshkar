@@ -22,6 +22,7 @@
 
 
 * {
+    user-select: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,6 +31,8 @@
 }
 
 body {
+    height: 100dvh;
+    width: 100dvw;
     min-width: 454px;
     background-color: #2c353a;
 }
@@ -39,9 +42,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 97.5vh;
     z-index: 0;
     min-height: 524px;
+    width: 100dvw;
 }
 
 .image-container {
@@ -141,15 +145,19 @@ body {
 
 .header>a {
     scroll-behavior: ease 1s;
-    writing-mode: sideways-lr;
     height: 100%;
     color: white;
     text-decoration: none;
+<<<<<<< HEAD
     -o-transform: rotate(360deg) scale(1);
     -ms-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
     -webkit-transform: rotate(360deg) scale(1);
     transform: rotate(360deg) scale(1);
+=======
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+>>>>>>> 4b592e4 (fix text rotation in mobile browsers)
     padding: .5rem;
 }
 
@@ -163,11 +171,7 @@ nav {
 }
 
 .navlinks:hover {
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    transform: rotate(-180deg) scale(1.5);
     filter: drop-shadow(0rem 0rem 5px var(--primary-color));
     color: var(--primary-color);
 }
@@ -394,6 +398,14 @@ nav {
     font-size: .8rem;
     padding: .5rem;
 }
+.m-card{
+    background-color: #364148;
+    padding: 1px;
+    border-radius: .9rem;
+}
+.m-content{
+    display: none;
+}
 
 .project-card:hover {
     -webkit-transform: scale(1.3);
@@ -421,13 +433,22 @@ nav {
         margin-top: -.3rem;
         display: grid;
     }
+    .m-card{
+        padding: 0.35rem;
+        padding-bottom: 0;
+    }
+    .m-content{
+        display: block;
+    }
+    .m-content>.project-desc{
 
+    }
     .projects-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .project-card {
-        height: 10rem;
+        height: 7.5rem;
     }
 
     .skills-container {

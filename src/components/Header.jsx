@@ -18,7 +18,11 @@ const Header = () => {
           <button onClick={() => handleButtonClick('https://in.linkedin.com/in/amardeep-lakshkar-24a339244')} className="social-btn">
             <i className="social-icon fa-brands fa-linkedin" />
           </button>
+<<<<<<< HEAD
           <button onClick={() => handleButtonClick('https://www.youtube.com/@AmardeepLakshkar')}  className="social-btn">
+=======
+          <button onClick={() => handleButtonClick('https://youtube.com/@AmardeepLakshkar')}  className="social-btn">
+>>>>>>> 4b592e4 (fix text rotation in mobile browsers)
             <i className="social-icon fa-brands fa-youtube" />
           </button>
           <button onClick={() => handleButtonClick('mailto:lakshkaramardeep@gmail.com')} className="social-btn">

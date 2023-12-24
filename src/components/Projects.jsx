@@ -50,6 +50,7 @@ const Projects = () => {
     ];
 
     const ProjectCard = ({ projectHead, projectDesc, btnStatus, btnRedirect, bgImage }) => (
+        <div className="m-card">
         <div className="overflowh">
             <div className="project-card"  style={{backgroundImage:bgImage}}>
                 <div className="project-content">
@@ -58,6 +59,12 @@ const Projects = () => {
                     <button onClick={() => handleButtonClick(btnRedirect)} className="project-btn hire-btn">{btnStatus}</button>
                 </div>
             </div>
+        </div>
+        <div className="m-content">
+        <h4 className='project-head'>{projectHead}</h4>
+        <p className='project-desc'>{projectDesc}</p>
+        <span><button onClick={() => handleButtonClick(btnRedirect)} className="project-btn hire-btn">{btnStatus}</button></span>
+        </div>
         </div>
 
     );
