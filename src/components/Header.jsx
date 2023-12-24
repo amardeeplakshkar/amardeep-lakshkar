@@ -18,7 +18,7 @@ const Header = () => {
           <button onClick={() => handleButtonClick('https://in.linkedin.com/in/amardeep-lakshkar-24a339244')} className="social-btn">
             <i className="social-icon fa-brands fa-linkedin" />
           </button>
-          <button onClick={() => handleButtonClick('https://youtube.com/amardeeplakshkar')}  className="social-btn">
+          <button onClick={() => handleButtonClick('https://www.youtube.com/@AmardeepLakshkar')}  className="social-btn">
             <i className="social-icon fa-brands fa-youtube" />
           </button>
           <button onClick={() => handleButtonClick('mailto:lakshkaramardeep@gmail.com')} className="social-btn">
