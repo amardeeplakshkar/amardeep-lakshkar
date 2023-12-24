@@ -145,11 +145,11 @@ body {
     height: 100%;
     color: white;
     text-decoration: none;
-    -o-transform: rotate(360deg) scaleX(1);
-    -ms-transform: rotate(360deg) scaleX(1);
-    -moz-transform: rotate(360deg) scaleX(1);
-    -webkit-transform: rotate(360deg) scaleX(1);
-    transform: rotate(360deg) scaleX(1);
+    -o-transform: rotate(360deg) scale(1);
+    -ms-transform: rotate(360deg) scale(1);
+    -moz-transform: rotate(360deg) scale(1);
+    -webkit-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1);
     padding: .5rem;
 }
 
