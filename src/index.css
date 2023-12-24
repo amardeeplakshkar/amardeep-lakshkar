@@ -148,16 +148,8 @@ body {
     height: 100%;
     color: white;
     text-decoration: none;
-<<<<<<< HEAD
-    -o-transform: rotate(360deg) scale(1);
-    -ms-transform: rotate(360deg) scale(1);
-    -moz-transform: rotate(360deg) scale(1);
-    -webkit-transform: rotate(360deg) scale(1);
-    transform: rotate(360deg) scale(1);
-=======
     writing-mode: tb-rl;
     transform: rotate(-180deg);
->>>>>>> 4b592e4 (fix text rotation in mobile browsers)
     padding: .5rem;
 }
 
