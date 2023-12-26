@@ -11,7 +11,7 @@ const About = () => {
             <h3>Full Stack MERN Web Developer</h3>
             <h4>A Web Developer based In Madhya Pradesh,India</h4>
             <p>
-            I'm Amardeep Lakshkar from Mandsaur, Madhya Pradesh. I'm passionate about crafting exceptional websites using a powerful stack that includes JavaScript, HTML, and CSS. Beyond the basics, I've also honed my skills in React, Node.js, Express.js, and MongoDB. I thrive on the excitement of learning new technologies and solving intricate puzzles to create seamless and visually appealing web experiences. My dedication to making websites not only look stunning but also function flawlessly is evident in my work. Outside of coding, I enjoy sharing my knowledge and experiences through my blog. I'd love to connect and discuss all things web-related!
+            Passionate web developer from Mandsaur, Madhya Pradesh, specializing in crafting exceptional websites with a robust stack including JavaScript, HTML, CSS, React, Node.js, Express.js, and MongoDB, dedicated to creating visually appealing and seamlessly functional web experiences, with a keen interest in continuous learning and sharing insights through blogging.
             </p>
            <div className="btn-box download-btn">
            <button className="nav-btn">
