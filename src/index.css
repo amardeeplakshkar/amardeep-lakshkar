@@ -5,6 +5,8 @@
     --primary-color: goldenrod;
     --about-color: whitesmoke;
     --bg-col: #2c353a;
+    --clr-primary-400: hsl(215, 25%, 27%);
+    --clr-primary-900: hsl(218, 33%, 9%);
 }
 
 @keyframes UpAndDown {
@@ -43,7 +45,7 @@ body {
     height: 100svh;
     z-index: 0;
     min-height: 524px;
-    width: 100svw;
+    width: 100svw; 
 }
 
 .image-container {
@@ -274,6 +276,7 @@ nav {
 }
 
 .skills-container {
+    width: 100svw;
     padding: .5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -331,10 +334,6 @@ nav {
     transition: ease-in-out 150ms;
     color: white;
     background-color: var(--primary-color);
-}
-
-#projects {
-    height: 100vh;
 }
 
 .projects-container {
@@ -422,9 +421,13 @@ nav {
 }
 
 @media (max-width: 880px) {
+    .scroller {
+        width: 70svh;
+    }
     #about {
         margin-top: -.3rem;
         display: grid;
+
     }
 
     .m-card {
@@ -442,6 +445,7 @@ nav {
 
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
+        width: 100svw;
     }
 
     .project-content {
@@ -531,6 +535,7 @@ nav {
         opacity: 1;
     }
 }
+
 @keyframes fadeOut {
     from {
         opacity: 1;
@@ -539,4 +544,80 @@ nav {
     to {
         opacity: 0;
     }
+}
+
+
+/* ======SLIDER======== */
+
+.scroller {
+    max-width: 100svw;
+}
+
+.scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg,
+            transparent,
+            white 20%,
+            white 80%,
+            transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+    --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+/* general styles */
+
+.tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+}
+
+.tag-list li {
+    color: var(--about-color);
+    padding: .75rem;
+    background: var(--clr-primary-400);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
+    text-transform: uppercase;
+}
+
+/* for testing purposed to ensure the animation lined up correctly */
+.slider-pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

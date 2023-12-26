@@ -10,11 +10,11 @@ import Projects from './components/Projects.jsx'
 const App = () => {
   return (
     <>
-    <Header/>
-    <Hero/>
-    <About/>
-    <Skills/>
-    <Projects/>
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
     </>
   )
 }
