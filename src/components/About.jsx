@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const About = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+      setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+      setIsModalOpen(false);
+  };
   return (
     <>
     <h2 className="section-head"><i class="fa-solid fa-address-card"></i> &nbsp;
@@ -14,14 +23,24 @@ const About = () => {
             Passionate web developer from Mandsaur, Madhya Pradesh, specializing in crafting exceptional websites with a robust stack including JavaScript, HTML, CSS, React, Node.js, Express.js, and MongoDB, dedicated to creating visually appealing and seamlessly functional web experiences, with a keen interest in continuous learning and sharing insights through blogging.
             </p>
            <div className="btn-box download-btn">
-           <button className="nav-btn">
+           <button onClick={openModal} className="nav-btn">
             <i class="fa-solid fa-download"/> Download CV
             </button>
-            <button className="hire-btn">
+            <button onClick={openModal} className="hire-btn">
             <i class="fa-solid fa-download"/> Hire Me
             </button>
            </div>
         </div>
+        {isModalOpen && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={closeModal}>
+              &times;
+            </span>
+            <p>Will Be Added Soon!.&#128531;</p>
+          </div>
+        </div>
+      )}
     </div>
     </>
   )

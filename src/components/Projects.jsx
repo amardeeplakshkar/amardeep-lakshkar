@@ -23,40 +23,20 @@ const Projects = () => {
             bgImage: 'url("https://user-images.githubusercontent.com/39578778/187084111-97d69aa7-53e4-46b9-b156-3ecc4d180d08.png")',
         },
         {
-            projectHead: 'Project 2',
-            projectDesc: 'Description for Project 1',
+            projectHead: 'FoodHunt',
+            projectDesc: 'Food Ordering Website',
             btnStatus: 'lets Go!',
             btnRedirect: 'https://www.facebook.com',
-            bgImage: 'url("https://blog.photoshelter.com/wp-content/uploads/2018/09/google-images-crop-1.png")',
+            bgImage: 'url("https://reactjsexample.com/content/images/2023/09/Code_2023-09_20-53-49.jpg")',
         },
         {
-            projectHead: 'Project 3',
-            projectDesc: 'Description for Project 1',
+            projectHead: 'AI Saas Plateform',
+            projectDesc: 'AI SaaS Web with five AI tools.',
             btnStatus: 'lets Go!',
             btnRedirect: 'https://www.instagram.com',
-            bgImage: 'url("https://blog.photoshelter.com/wp-content/uploads/2018/09/google-images-crop-1.png")',
+            bgImage: 'url("https://res.cloudinary.com/duscymcfc/image/upload/v1703591091/portfolio/peym3xvjusobjkwuf7go.png")',
         },
-        {
-            projectHead: 'Project 1',
-            projectDesc: 'Description for Project 1',
-            btnStatus: 'Coming Soon',
-            btnRedirect: 'https://www.google.com',
-            bgImage: 'url("https://blog.photoshelter.com/wp-content/uploads/2018/09/google-images-crop-1.png")',
-        },
-        {
-            projectHead: 'Project 2',
-            projectDesc: 'Description for Project 1',
-            btnStatus: 'lets Go!',
-            btnRedirect: 'https://www.facebook.com',
-            bgImage: 'url("https://blog.photoshelter.com/wp-content/uploads/2018/09/google-images-crop-1.png")',
-        },
-        {
-            projectHead: 'Project 3',
-            projectDesc: 'Description for Project 1',
-            btnStatus: 'lets Go!',
-            btnRedirect: 'https://www.instagram.com',
-            bgImage: 'url("https://blog.photoshelter.com/wp-content/uploads/2018/09/google-images-crop-1.png")',
-        },
+      
     ];
 
     const ProjectCard = ({ projectHead, projectDesc, btnStatus, btnRedirect, bgImage }) => (
