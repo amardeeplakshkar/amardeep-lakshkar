@@ -12,9 +12,9 @@ const About = () => {
   };
   return (
     <>
-    <h2 className="section-head"><i class="fa-solid fa-address-card"></i> &nbsp;
+    <h2 id='about' className="section-head"><i class="fa-solid fa-address-card"></i> &nbsp;
     about me</h2>
-    <div id="about">
+    <div id="about-container">
         <div className="about-image"><img src="favicon.png" alt="Amardeep Lakshkar" srcset=""/></div>
         <div className="about-content">
             <h3>Full Stack MERN Web Developer</h3>

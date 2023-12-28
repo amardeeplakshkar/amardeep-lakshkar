@@ -182,7 +182,7 @@ nav {
     color: var(--primary-color);
 }
 
-#about {
+#about-container {
     margin: 2rem;
     align-items: center;
     display: flex;
@@ -424,10 +424,9 @@ nav {
     .scroller {
         width: 70svh;
     }
-    #about {
+    #about-container {
         margin-top: -.3rem;
         display: grid;
-
     }
 
     .m-card {
