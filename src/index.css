@@ -42,11 +42,11 @@ body {
 }
 
 .hero {
-    background-image: url(./background.png);
+    background-image: url(https://res.cloudinary.com/duscymcfc/image/upload/v1703421397/e7xjfqof2bpe6fzqrzur.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100dvh;
+    height: 97.5vh;
     z-index: 0;
     width: 100dvw;
 }
