@@ -8,9 +8,7 @@ const Skills = () => {
     { skillicontype: 'brands', skillicon: 'js', skillhead: 'JavaScript', skilldesc: 'JavaScript is the backbone of dynamic web applications, allowing me to create interactive and responsive features that enhance user experiences. ' },
     { skillicontype: 'brands', skillicon: 'html5', skillhead: 'HTML5', skilldesc: 'HTML5 is the foundation of modern web development, enabling me to structure and present content with semantic markup and multimedia support. ' },
     { skillicontype: 'brands', skillicon: 'css3-alt', skillhead: 'CSS3', skilldesc: 'CSS3 empowers me to style and design web elements beautifully, ensuring a visually appealing and consistent look across different devices. ' },
-    { skillicontype: 'solid', skillicon: 'hand-holding-heart', skillhead: 'Web Performance Optimization', skilldesc: 'Web performance optimization is my commitment to delivering fast and efficient websites by minimizing load times and enhancing overall user satisfaction. ' },
-
-    // Add more skills as needed
+    { skillicontype: 'solid', skillicon: 'hand-holding-heart', skillhead: 'Web Performance Optimization', skilldesc: 'Web performance optimization is my commitment to delivering fast and efficient websites by minimizing load times and enhancing overall user satisfaction. ' }
   ];
 
   const SkillBox = ({ skillhead, skilldesc, skillicon, skillicontype }) => (
