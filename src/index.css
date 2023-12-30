@@ -46,24 +46,25 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 97.5vh;
+    height: 95dvh;
     z-index: 0;
     width: 100dvw;
+    display: flex;
+    justify-content: center;
+     align-items: end;
+     position: relative;
 }
 
 .image-container {
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    position: relative;
     height: 45dvh;
-    left: 0;
-    right: 0;
 }
 
 .my-name {
     z-index: 2;
-    left: 0;
-    right: 0;
     position: absolute;
     bottom: 60%;
     font-size: calc(3vw + 4.5dvh);
