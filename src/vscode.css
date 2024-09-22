@@ -6,7 +6,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .mtk5 {
@@ -15,7 +15,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .mtk4 {
@@ -23,6 +23,7 @@
     text-decoration: none;
     text-underline-position: under;
     border-bottom: 4px dashed #efdf62;
+    font-weight: 700;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active{
