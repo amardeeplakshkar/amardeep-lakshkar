@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family:  "Poppins", sans-serif;
+}
+.mtk10 {
+    color: yellow;
+    background-image: linear-gradient(45deg, #ff61d2, #fe908f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 900;
+}
+
+.mtk5 {
+    color: #50fa7b;
+    background-image: linear-gradient(45deg,#11998f, #38ef7d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+}
+
+.mtk8 {
+    color: #efdf62;
+    text-decoration: none;
+    text-underline-position: under;
+    border-bottom: 4px dashed #efdf62;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active{
+    z-index: 6;
+    top: 0;
+    height: 5px;
+    background-color: var(--tab-border-top-color);
+    background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f);
+}
+
+.codicon-accounts-view-bar-icon:before {
+    content: "";
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url("/home/amardeeplakshkar/Downloads/pu7qn2rwgy9bc6bv7xot.webp");
+    background-size: 100%;
+    background-color: transparent;
+    border:  #11998f .2rem solid;
+}
