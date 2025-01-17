@@ -1,16 +1,4 @@
-/* Code comment style */
-.mtk3 {
-    font-family: 'Z003', monospace !important;
-    /* color: goldenrod !important; */
-    font-size: larger;
-    font-weight: 600;
-    /* color: yellow; */
-    background-image: linear-gradient(45deg, #00e0ff, #00ff89);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-weight: 700;
-}
+
 
 .mtk6 {
     color: yellow;
