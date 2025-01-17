@@ -1,0 +1,69 @@
+{
+    "window.titleBarStyle": "custom",
+    "css.lint.unknownAtRules": "ignore",
+    "vscode_custom_css.imports": [
+        "https://raw.githubusercontent.com/amardeeplakshkar/amardeep-lakshkar/refs/heads/main/src/vscode.css",
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.fontFamily": "'Poppins','Droid Sans Mono', 'monospace', monospace",
+    "tabnine.experimentalAutoImports": true,
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.external.osxExec": "Terminal",
+    "explorer.confirmDelete": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.wordWrap": "on",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "tailwind-fold.autoFold": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.startupEditor": "none",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWhenNoErrors": true,
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "eslint.format.enable": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+     "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false,
+    "workbench.colorTheme": "Hub Contrast (rainglow)",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.settings.applyToAllProfiles": [
+        "continue.enableTabAutocomplete",
+        "workbench.colorCustomizations"
+    ],
+    "application.shellEnvironmentResolutionTimeout": 5,
+    "workbench.editorAssociations": {
+        "*.db": "default"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "terminal.integrated.fontWeight": "900",
+}
