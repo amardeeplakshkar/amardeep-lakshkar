@@ -1,7 +1,47 @@
 /* Code comment style */
-.mtk3 {
-    font-family: 'Monaspace Radon', monospace !important;
-    color: #008c7d !important;
+.mtk6 {
+    color: yellow;
+    background-image: linear-gradient(45deg, #ff61d2, #fe908f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.mtk5 {
+    color: #50fa7b;
+    background-image: linear-gradient(45deg,#11998f, #38ef7d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+
+.mtk4 {
+    color: #efdf62;
+    text-decoration: none;
+    text-underline-position: under;
+    border-bottom: 4px dashed #efdf62;
+    font-weight: 700;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active{
+    z-index: 6;
+    top: 0;
+    height: 5px;
+    background-color: var(--tab-border-top-color);
+    background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f);
+}
+
+.codicon-accounts-view-bar-icon:before {
+    content: "";
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url("https://avatars.githubusercontent.com/u/109571797?v=4");
+    background-size: 100%;
+    background-color: transparent;
+    border:  #11998f .2rem solid;
 }
 
 .line-numbers {
